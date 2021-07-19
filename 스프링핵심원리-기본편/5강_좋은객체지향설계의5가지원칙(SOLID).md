@@ -35,7 +35,7 @@
 
 - MemberService 클라이언트가 구현 클래스를 직접 선택
   
-  ![스크린샷 2021-07-19 오후 11.03.38](/Users/gguu/TIL/스프링핵심원리-기본편/스크린샷 2021-07-19 오후 11.03.38.png)
+  ![스크린샷 2021-07-19 오후 11.03.38](/Users/gguu/TIL/스프링핵심원리-기본편/img/스크린샷 2021-07-19 오후 11.03.38.png)
   
   - MemberRepository m = new MemoryMemberRepository(); // 기존코드
   - MemberRepository m = new JdbcMemberRepository(); // 변경 코드
