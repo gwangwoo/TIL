@@ -35,7 +35,8 @@
 
 - MemberService 클라이언트가 구현 클래스를 직접 선택
   
-  ![스크린샷 2021-07-19 오후 11.03.38](../img/스크린샷 2021-07-19 오후 11.03.38.png)
+  <img width="1174" alt="스크린샷 2021-07-19 오후 11 03 38" src="https://user-images.githubusercontent.com/29221488/126173719-d6576cb2-ed72-480a-b944-edea3ccfba81.png">
+
   
   - MemberRepository m = new MemoryMemberRepository(); // 기존코드
   - MemberRepository m = new JdbcMemberRepository(); // 변경 코드
